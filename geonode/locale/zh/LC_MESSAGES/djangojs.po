@@ -28,7 +28,7 @@ msgstr ""
 "Project-Id-Version: GeoNode\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2021-07-08 09:03+0300\n"
-"PO-Revision-Date: 2016-08-23 11:58+0000\n"
+"PO-Revision-Date: 2025-04-10 17:58+0800\n"
 "Last-Translator: Julien Collaer <julien.collaer@opengeode.be>\n"
 "Language-Team: Chinese (http://www.transifex.com/geonode/geonode/language/"
 "zh/)\n"
@@ -37,9 +37,10 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
+"X-Generator: Poedit 3.6\n"
 
 msgid "STORE_UPDATED"
-msgstr ""
+msgstr "STORE_UPDATED"
 
 #, javascript-format
 msgid "Missing a %s file, which is required"
@@ -49,7 +50,7 @@ msgid "ESRI Shapefile"
 msgstr "ESRI shape文件"
 
 msgid "ASCII Text File"
-msgstr ""
+msgstr "ASCII 文本文件"
 
 msgid "GeoTIFF"
 msgstr "GeoTIFF"
@@ -83,40 +84,40 @@ msgid "National Imagery Transmission Format"
 msgstr "国家影像传输格式"
 
 msgid "Controlled Image Base-1 Meter"
-msgstr ""
+msgstr "Controlled Image Base-1 Meter"
 
 msgid "Controlled Image Base-5 Meter"
-msgstr ""
+msgstr "Controlled Image Base-5 Meter"
 
 msgid "Controlled Image Base-10 Meter"
-msgstr ""
+msgstr "Controlled Image Base-10 Meter"
 
 msgid "CADRG-Global Navigation Chart"
-msgstr ""
+msgstr "CADRG-全球导航图"
 
 msgid "CADRG-Jet Navigation Chart"
-msgstr ""
+msgstr "CADRG-Jet 导航图"
 
 msgid "CADRG-Operational Navigation Chart"
-msgstr ""
+msgstr "CADRG-业务导航图"
 
 msgid "CADRG-Tactical Pilotage Chart"
-msgstr ""
+msgstr "CADRG-战术领航图"
 
 msgid "CADRG-Joint Operations Graphic"
-msgstr ""
+msgstr "CADRG-联合行动图"
 
 msgid "CADRG-Topographic Line Map 100K"
-msgstr ""
+msgstr "CADRG-地形线图 100K"
 
 msgid "CADRG-Topographic Line Map 50K"
-msgstr ""
+msgstr "CADRG-地形线图 50K"
 
 msgid "JPEG2000"
-msgstr ""
+msgstr "JPEG2000"
 
 msgid "MrSID-Multi-resolution Seamless Image Database"
-msgstr ""
+msgstr "MrSID-多分辨率无缝图像数据库"
 
 #, fuzzy
 #| msgid "Metadata Links:"
@@ -124,13 +125,13 @@ msgid "XML Metadata File"
 msgstr "元数据链接："
 
 msgid "Style Layer Descriptor"
-msgstr ""
+msgstr "样式图层描述符"
 
 msgid "JPEG"
-msgstr ""
+msgstr "JPEG 格式"
 
 msgid "PNG"
-msgstr ""
+msgstr "PNG"
 
 #, fuzzy
 #| msgid "GeoTIFF"
@@ -147,69 +148,81 @@ msgid ""
 "something that is perceived to be a client error (e.g., malformed request "
 "syntax, invalid request message framing, or deceptive request routing)."
 msgstr ""
+"- 400 错误请求。服务器无法或不会处理请求，因为某些情况被认为是客户端错误(例"
+"如，请求语法格式错误、请求消息框架无效或欺骗性请求路由)。"
 
 msgid ""
 " - 401 Unauthorized. Request was not sent with the proper authentication "
 "credentials."
-msgstr ""
+msgstr "- 401 未授权。未使用正确的身份验证凭证发送请求。"
 
 msgid ""
 " - 403 Forbidden. This is generally related to permission rules on your "
 "server. Contact the system administrator for more information regarding this "
 "error message."
 msgstr ""
+"- 403 禁止。这通常与服务器上的权限规则有关。请联系系统管理员以获取有关此错误"
+"消息的更多信息。"
 
 msgid ""
 " - 404 Not Found. Origin server was unable or unwilling to find the resource "
 "requested."
-msgstr ""
+msgstr "- 404 未找到。源服务器无法或不愿意找到请求的资源。"
 
 msgid ""
 " - 405 Method Not Allowed. Origin server is aware of the requested resource, "
 "but the request method used is not supported."
-msgstr ""
+msgstr "- 405 不允许使用方法。源服务器知道请求的资源，但不支持使用的请求方法。"
 
 msgid ""
 " - 406 Not Acceptable. Resource is not available at the origin that adheres "
 "to negotiation headers that were  set prior (e.g. via 'Accept-Charset' and "
 "'Accept-Language' headers)."
 msgstr ""
+"- 406 不可接受。如果源站遵循之前设置的协商标头(例如，通过\"Accept-Charset\"和"
+"\"Accept-Language\"标头)，则资源不可用。"
 
 msgid ""
 " - 407 Authentication Required. The client did not send the required "
 "authentication with the request."
-msgstr ""
+msgstr "- 407 需要身份验证。客户端未随请求发送所需的身份验证。"
 
 msgid ""
 " - 408 Request Timeout. The origin server did not receive the complete "
 "request in what it considers a reasonable time."
-msgstr ""
+msgstr "- 408 请求超时。源服务器未在其认为合理的时间内收到完整的请求。"
 
 msgid ""
 " - 409 Conflict. The request did not complete because of a conflict with the "
 "current state of the resource. Typically happens on a PUT request where "
 "multiple clients are attempting to edit the same resource."
 msgstr ""
+"- 409 冲突。由于与资源的当前状态冲突，请求未完成。通常发生在多个客户端尝试编"
+"辑同一资源的 PUT 请求上。"
 
 msgid ""
 " - 410 Gone. The resource requested is permanently missing at the origin."
-msgstr ""
+msgstr "- 410 丢失。请求的资源在源中永久缺失。"
 
 msgid ""
 " - 411 Length Required. Client did not define the 'Content-Length' of the "
 "request body in the headers and this is required to obtain the resource."
 msgstr ""
+"- 411 需要长度。客户端未在标头中定义请求正文的 'Content-Length'，这是获取资源"
+"所必需的。"
 
 msgid ""
 " - 412 Precondition Failed. Server denies the request because the resource "
 "failed to meet the conditions specified by the client."
-msgstr ""
+msgstr "- 412 前提条件失败。服务器拒绝请求，因为资源不满足客户端指定的条件。"
 
 msgid ""
 " - 413 Payload Too Large. Refusal from the server to process the request "
 "because the payload sent from the client is larger than the server wished to "
 "accept. Server has the optional to close the connection."
 msgstr ""
+"- 413 有效载荷太大。服务器拒绝处理请求，因为从客户端发送的有效负载大于服务器"
+"希望接受的有效负载。Server 可以选择关闭连接。"
 
 msgid ""
 " - 414 URI Too Long. Refusal from the server that the URI was too long to be "
@@ -217,6 +230,8 @@ msgid ""
 "unusually long URI after a POST, this could be seen as a security risk and a "
 "414 gets generated."
 msgstr ""
+"- 414 URI 太长。服务器拒绝 URI 太长而无法处理。例如，如果客户端在 POST 后尝试"
+"使用异常长的 URI 发出 GET 请求，这可能会被视为安全风险，并生成 414。"
 
 msgid ""
 " - 415 Unsupported Media Type. Refusal from the server to process the format "
@@ -224,22 +239,26 @@ msgid ""
 "look at the 'Content-Type' or 'Content-Encoding' headers sent in the "
 "client’s request."
 msgstr ""
+"- 415 不支持的媒体类型。服务器拒绝处理当前有效负载的格式。识别和解决此问题的"
+"一种方法是查看客户端请求中发送的 'Content-Type' 或 'Content-Encoding' 标头。"
 
 msgid ""
 " - 417 Expectation Failed. Failure of server to meet the requirements "
 "specified in the 'Expect' header of the client’s request."
-msgstr ""
+msgstr "- 417 期望失败。服务器未能满足客户端请求的 'Expect' 标头中指定的要求。"
 
 msgid ""
 " - 429 Too Many Requests. Client has sent too many requests in the specified "
 "amount of time according to the server."
-msgstr ""
+msgstr "- 429 请求太多。客户端在指定的时间内根据服务器发送了太多请求。"
 
 msgid ""
 " - 499 Client Close Request. Nginx specific response code to indicate when "
 "the connection has been closed by the client while the server is still "
 "processing its request, making server unable to send a status code back."
 msgstr ""
+"- 499 客户端关闭请求。特定于 Nginx 的响应代码，用于指示客户端何时关闭了连接，"
+"而服务器仍在处理其请求，从而使服务器无法发回状态代码。"
 
 msgid ""
 " - 500 Internal Server Error. This error indicates that the server has "
@@ -247,6 +266,8 @@ msgid ""
 "request cannot be fulfilled due to the application being configured "
 "incorrectly on the server."
 msgstr ""
+"- 500 内部服务器错误。此错误表示服务器遇到了意外情况。当由于服务器上的应用程"
+"序配置不正确而导致应用程序请求无法完成时，通常会发生这种情况。"
 
 msgid ""
 " - 501 Not Implemented. This error indicates that the HTTP method sent by "
@@ -254,12 +275,16 @@ msgid ""
 "server being out of date. It is a very rare error and generally requires "
 "that the web server be updated."
 msgstr ""
+"- 501 未实现。此错误表示服务器不支持客户端发送的 HTTP 方法。这通常是由于服务"
+"器过期造成的。这是一个非常罕见的错误，通常需要更新 Web 服务器。"
 
 msgid ""
 " - 502 Bad Gateway. This error is usually due to improperly configured proxy "
 "servers. The first step in resolving the issue is to clear the client's "
 "cache."
 msgstr ""
+"- 502 错误的网关。此错误通常是由于代理服务器配置不当造成的。解决此问题的第一"
+"步是清除客户端的缓存。"
 
 msgid ""
 " - 503 Service Unavailable. This error occurs when the server is unable to "
@@ -267,12 +292,16 @@ msgid ""
 "temporarily closed for maintenance. The error indicates that the server will "
 "only temporarily be down."
 msgstr ""
+"- 503 服务不可用。当服务器由于临时过载或服务器暂时关闭进行维护而无法处理请求"
+"时，会发生此错误。该错误指示服务器只会暂时关闭。"
 
 msgid ""
 " - 504 Gateway Timeout. GeoNode lost the connection with GeoServer or DB due "
 "to a connection timeout. Consider using the management commands to import "
 "data!"
 msgstr ""
+"- 504 网关超时。由于连接超时，GeoNode 失去了与 GeoServer 或 DB 的连接。考虑使"
+"用管理命令导入数据！"
 
 msgid ""
 " - 505 HTTP Version Not Supported. This error occurs when the server refuses "
@@ -281,11 +310,16 @@ msgid ""
 "client computer; for example, if an invalid version number has been "
 "specified."
 msgstr ""
+"- 505不支持 HTTP 版本。当服务器拒绝支持客户端计算机指定的 HTTP 协议时，将发生"
+"此错误。这可能是由于客户端计算机未正确指定协议造成的;例如，如果指定了无效的版"
+"本号。"
 
 msgid ""
 " - 506 Variant Also Negotiates. This error indicates that the server is not "
 "properly configured. Contact the system administrator to resolve this issue."
 msgstr ""
+"- 506 变体也进行了协商。此错误表示服务器配置不正确。请与系统管理员联系以解决"
+"此问题。"
 
 msgid ""
 " - 507 Insufficient Storage. This error indicates that the server is out of "
@@ -296,6 +330,10 @@ msgid ""
 "expanded, or it may simply need to be restarted. Contact the system "
 "administrator for more information regarding this error message."
 msgstr ""
+"- 507 存储空间不足。此错误表示服务器已用完内存。当请求的应用程序无法分配运行"
+"所需的系统资源时，最有可能发生这种情况。要解决此问题，可能需要清理服务器的硬"
+"盘上任何不必要的文档以释放更多硬盘空间，可能需要扩展其内存，或者可能只需要重"
+"新启动。请联系系统管理员以获取有关此错误消息的更多信息。"
 
 msgid ""
 " - 509 Bandwidth Limit Exceeded. This error occurs when the bandwidth limit "
@@ -303,12 +341,17 @@ msgid ""
 "issue is to wait until the limit is reset in the following cycle. Consult "
 "the system administrator for information about acquiring more bandwidth."
 msgstr ""
+"- 509 超出带宽限制。当达到系统管理员施加的带宽限制时，会出现此错误。此问题的"
+"唯一解决方法是等到限制在下一个周期中重置。请咨询系统管理员以获取有关获取更多"
+"带宽的信息。"
 
 msgid ""
 " - 510 Not Extended. This error occurs when an extension attached to the "
 "HTTP request is not supported by the web server. To resolve the issue, you "
 "may need to update the server."
 msgstr ""
+"- 510 未扩展。当 Web 服务器不支持附加到 HTTP 请求的扩展时，会出现此错误。要解"
+"决此问题，您可能需要更新服务器。"
 
 #, fuzzy
 #| msgid "Unknown Map"
@@ -318,19 +361,19 @@ msgstr "未知地图"
 msgid ""
 " Error Code. Contact the system administrator for more information regarding "
 "this error message."
-msgstr ""
+msgstr "错误代码。请联系系统管理员以获取有关此错误消息的更多信息。"
 
 msgid "Additional info: "
-msgstr ""
+msgstr "附加信息。"
 
 msgid "Finalizing"
-msgstr ""
+msgstr "敲定"
 
 msgid "Unexpected Error"
 msgstr "意外错误"
 
 msgid "Your "
-msgstr ""
+msgstr "你"
 
 #, fuzzy
 #| msgid "Layer Info"
@@ -350,7 +393,7 @@ msgid "Manage Styles"
 msgstr "管理样式"
 
 msgid "Please wait until GeoNode finished configuring it!"
-msgstr ""
+msgstr "请等待 GeoNode 完成配置！"
 
 msgid "The column %1 was renamed to %2 <br/>"
 msgstr "属性列 %1 重命名为 %2 <br/>"
@@ -362,10 +405,10 @@ msgid "You need to specify more information in order to complete your upload"
 msgstr "您需要在为了完成您指定上传的更多信息"
 
 msgid "Files are ready to be ingested!"
-msgstr ""
+msgstr "文件已准备好导入！"
 
 msgid "A temporal dimension may be added to this Layer."
-msgstr ""
+msgstr "可以向此层添加时间维度。"
 
 msgid "Performing GeoServer Config Step"
 msgstr "展示GeoServer的配置步骤"
@@ -374,12 +417,14 @@ msgid ""
 "<br>Please check your network connection. In case of Layer Upload make sure "
 "GeoServer is running and accepting connections."
 msgstr ""
+"<br>请检查您的网络连接。如果是 Layer Upload，请确保 GeoServer 正在运行并接受"
+"连接。"
 
 msgid "<br>"
-msgstr ""
+msgstr "<br>"
 
 msgid "<br>Bad request or URL not found."
-msgstr ""
+msgstr "<br>请求错误或找不到 URL。"
 
 #, fuzzy
 #| msgid "Unknown Map"
@@ -415,8 +460,8 @@ msgid ""
 "This is the list of available %s. You may choose some by selecting them in "
 "the box below and then clicking the \"Choose\" arrow between the two boxes."
 msgstr ""
-"这是可用的%s列表。你可以通过在下方的框中选中它们，然后在两个框中点击\"Choose"
-"\"箭头来选择。"
+"这是可用的%s列表。你可以通过在下方的框中选中它们，然后在两个框中点击"
+"\"Choose\"箭头来选择。"
 
 #, javascript-format
 msgid "Type into this box to filter down the list of available %s."
@@ -481,16 +526,16 @@ msgstr ""
 "钮而不是保存按钮。"
 
 msgid "'"
-msgstr ""
+msgstr "'"
 
 msgid "-1"
-msgstr ""
+msgstr "-1"
 
 msgid "trailingComments"
-msgstr ""
+msgstr "尾随注释"
 
 msgid "leadingComments"
-msgstr ""
+msgstr "开头注释"
 
 #, fuzzy
 #| msgid "Enter comments here."
@@ -498,7 +543,7 @@ msgid "innerComments"
 msgstr "在这里输入评论。"
 
 msgid "Multiselect"
-msgstr ""
+msgstr "多选"
 
 #, fuzzy
 #| msgid "Select"
@@ -506,106 +551,106 @@ msgid "SelectList"
 msgstr "选择"
 
 msgid "show:"
-msgstr ""
+msgstr "显示："
 
 msgid "DraftEditor/root"
-msgstr ""
+msgstr "草稿编辑器/根"
 
 msgid "DraftEditor/editorContainer"
-msgstr ""
+msgstr "DraftEditor/editorContainer"
 
 msgid "-"
-msgstr ""
+msgstr "-"
 
 msgid "uirevision"
-msgstr ""
+msgstr "uirevision"
 
 msgid "bgcolor"
-msgstr ""
+msgstr "BGCOLOR"
 
 msgid "bordercolor"
-msgstr ""
+msgstr "bordercolor"
 
 msgid "borderwidth"
-msgstr ""
+msgstr "borderwidth"
 
 msgid "orientation"
-msgstr ""
+msgstr "orientation"
 
 msgid "traceorder"
-msgstr ""
+msgstr "traceorder"
 
 msgid "tracegroupgap"
-msgstr ""
+msgstr "tracegroupgap"
 
 msgid "itemsizing"
-msgstr ""
+msgstr "itemsizing"
 
 msgid "itemclick"
-msgstr ""
+msgstr "itemclick"
 
 msgid "itemdoubleclick"
-msgstr ""
+msgstr "itemdoubleclick"
 
 msgid "x"
-msgstr ""
+msgstr "x"
 
 msgid "xanchor"
-msgstr ""
+msgstr "xanchor"
 
 msgid "y"
-msgstr ""
+msgstr "y"
 
 msgid "yanchor"
-msgstr ""
+msgstr "yanchor"
 
 msgid "valign"
-msgstr ""
+msgstr "valign"
 
 msgid "title.text"
-msgstr ""
+msgstr "title.text"
 
 msgid "title.side"
-msgstr ""
+msgstr "title.side"
 
 msgid "visible"
-msgstr ""
+msgstr "visible"
 
 msgid "thickness"
-msgstr ""
+msgstr "thickness"
 
 msgid "autorange"
-msgstr ""
+msgstr "autorange"
 
 msgid "range"
-msgstr ""
+msgstr "range"
 
 msgid "bingroup"
-msgstr ""
+msgstr "bingroup"
 
 msgid "Print configuration broken ("
-msgstr ""
+msgstr "打印配置损坏 ("
 
 msgid "Print configuration not available ("
-msgstr ""
+msgstr "打印配置不可用 ("
 
 msgid "go"
-msgstr ""
+msgstr "go"
 
 msgid "goBack"
-msgstr ""
+msgstr "goBack"
 
 msgid "goForward"
-msgstr ""
+msgstr "goForward"
 
 msgid "Abort"
-msgstr ""
+msgstr "Abort"
 
 msgid "As Sibling"
-msgstr ""
+msgstr "As Sibling"
 
 msgid "As child"
-msgstr ""
+msgstr "As child"
 
 #, fuzzy
 #~| msgid "Now"
